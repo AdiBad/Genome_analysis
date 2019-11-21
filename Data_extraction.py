@@ -8,7 +8,7 @@ gse = GEOparse.get_GEO(geo='GSE1563', destdir='./')
 
 # fetchtheseGSEfromGEO.txt contains list of GSE I want from GEO
 
-f = open( r'C:\Users\ambily.sivadas\Desktop\AdityaB\humans\GPL8888_26SAMPLES\fetchtheseGSEfromGEO.txt','r')
+f = open( r'C:\fetchtheseGSEfromGEO.txt','r')
 putingeo = f.readlines() 
 f.close()
 
@@ -19,7 +19,7 @@ for i in putingeo
 #..............................................................................................................
 #Code to fetch all GSM of all GSE and store in a new folder
 
-f = open( r'C:\Users\ambily.sivadas\Desktop\AdityaB\humans\GPL8888_26SAMPLES\fetchtheseGSEfromGEO.txt','r')
+f = open( r'C:\fetchtheseGSEfromGEO.txt','r')
 putingeo = f.readlines() 
 f.close()
 
@@ -39,7 +39,7 @@ for i in putingeo:
 #Code to fetch tables (processed data in form of LRR, BAF, Gtype) from downloaded .soft 
 #or .soft.rar file  and create a text file for each sample
 
-f = open(r'C:\Users\ambily.sivadas\Desktop\AdityaB\humans\GPL8888_26SAMPLES\fetchtheseGSEfromGEO.txt','r')
+f = open(r'C:\fetchtheseGSEfromGEO.txt','r')
 putingeo = f.readlines() 
 f.close()
 
